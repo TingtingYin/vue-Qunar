@@ -15,5 +15,9 @@
 > 用<router-link></router-link>
 ### template标签注意事项
 > template标签只能向外暴露一个根标签
+### meta标签
+> 移动端用户通过手指放大缩小网页是无效的
+### reset.css
+> 所有浏览器显示的效果基本一致
 
 
