@@ -49,7 +49,8 @@
 1. npm install vue-awesome-swiper@2.6.7 --save
 新版本不好用
 2. Swiper.vue
-3. 去掉左右箭头
+3. 去掉左右箭头和灰线
+4. 轮播图显示图片
 
 
 
