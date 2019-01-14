@@ -1,6 +1,6 @@
 <template>
+ <div class=wrapper>
   <swiper :options="swiperOption" >
-    <!-- slides -->
     <swiper-slide>
       <img class="swipe-img" src="http://img1.qunarzz.com/piao/fusion/1812/d6/daa880b254940402.jpg_750x200_b114308a.jpg">
     </swiper-slide>
@@ -10,8 +10,8 @@
 
     <!-- Optional controls -->
     <div class="swiper-pagination"  slot="pagination"></div>
-
   </swiper>
+ </div>
 </template>
 
 <script>
@@ -26,6 +26,11 @@ export default {
 </script >
 
 <style lang="stylus" scoped>
- .swipe-img
+ .wrapper
+  overflow: hidden
+  width: 100%
+  height: 0
+  padding-bottom:27.25%
+  .swipe-img
     width: 100%
 </style>
