@@ -21,7 +21,8 @@
 > 所有浏览器显示的效果基本一致
 ### border.css
 > 1像素边框显示，不同设备显示物理一像素边框
-
+### 移动端click事件延迟300ms的解决
+1.  npm install fastclick --save
 
 
 
