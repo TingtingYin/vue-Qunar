@@ -40,5 +40,10 @@
 3. 给目录style起别名：@import '~styles/variables.styl'
 
 改完之后记得重启！！！！
+### 分支开发
+1. github上创建分支index-swiper
+2. 本地git pull
+3. git checkout index-swiper
+
 
 
