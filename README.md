@@ -44,6 +44,12 @@
 1. github上创建分支index-swiper
 2. 本地git pull
 3. git checkout index-swiper
+### 轮播图
+> vue-awesome-swiper
+1. npm install vue-awesome-swiper@2.6.7 --save
+新版本不好用
+2. Swiper.vue
+3. 去掉左右箭头
 
 
 
