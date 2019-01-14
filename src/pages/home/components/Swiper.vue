@@ -1,14 +1,9 @@
 <template>
  <div class=wrapper>
   <swiper :options="swiperOption" >
-    <swiper-slide>
-      <img class="swipe-img" src="http://img1.qunarzz.com/piao/fusion/1812/d6/daa880b254940402.jpg_750x200_b114308a.jpg">
+    <swiper-slide v-for="item of swiperList" :key="item.id">
+      <img class="swipe-img" :src="item.imgUrl">
     </swiper-slide>
-    <swiper-slide>
-    <img class="swipe-img" src="http://img1.qunarzz.com/piao/fusion/1811/31/da037478f37cf202.jpg_750x200_fe28d396.jpg">
-    </swiper-slide>
-
-    <!-- Optional controls -->
     <div class="swiper-pagination"  slot="pagination"></div>
   </swiper>
  </div>
@@ -19,13 +14,23 @@ export default {
   name: 'HomeSwiper',
   data () {
     return {
+      swiperList: [
+        {
+          id: '0001',
+          imgUrl: 'http://img1.qunarzz.com/piao/fusion/1812/d6/daa880b254940402.jpg_750x200_b114308a.jpg'
+        },
+        {
+          id: '0002',
+          imgUrl: 'http://img1.qunarzz.com/piao/fusion/1811/31/da037478f37cf202.jpg_750x200_fe28d396.jpg'
+        }
+      ],
       swiperOption: {
         pagination: '.swiper-pagination'
       }
     }
   }
 }
-</script >
+</script>
 
 <style lang="stylus" scoped>
  .wrapper >>> .swiper-pagination-bullet-active
