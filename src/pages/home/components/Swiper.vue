@@ -19,7 +19,9 @@ export default {
   name: 'HomeSwiper',
   data () {
     return {
-      swiperOption: {}
+      swiperOption: {
+        pagination: '.swiper-pagination'
+      }
     }
   }
 }
