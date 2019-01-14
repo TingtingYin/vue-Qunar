@@ -35,5 +35,10 @@
 ### iconfont的使用
 > iconfont官网创建项目，图标加入购物车
 ### 代码优化1-抽离共用样式
+1. @import '../../../assets/styles/variables.styl'
+2. @import '~@/assets/styles/variables.styl'
+3. 给目录style起别名：@import '~styles/variables.styl'
+
+改完之后记得重启！！！！
 
 
