@@ -25,6 +25,12 @@
 1.  npm install fastclick --save
 ### iconfont
 > TODO
+###----------项目初始化完毕---------------
 
+1. npm install stylus --save
+2. npm install stylus-loader --save
+### rem
+> 1rem等于html根元素设定的font-size的px值,这里是reset.css中设置的50px.如果css里面没有设定html的font-size，则默认浏览器以1rem=16px来换算。
+### header初步（icon没有做）
 
 
