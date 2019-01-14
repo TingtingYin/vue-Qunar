@@ -28,6 +28,8 @@ export default {
 </script >
 
 <style lang="stylus" scoped>
+ .wrapper >>> .swiper-pagination-bullet-active
+  background: #fff
  .wrapper
   overflow: hidden
   width: 100%
