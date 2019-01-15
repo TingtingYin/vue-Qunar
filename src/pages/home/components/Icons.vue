@@ -1,8 +1,8 @@
 <template>
   <div class='icons'>
     <swiper>
-      <swiper-slide>
-        <div class='icon' v-for="item of iconList" :key="item.id">
+      <swiper-slide v-for="(page,index) of pages" :key="index">
+        <div class='icon' v-for="item of page" :key="item.id">
           <div class='icon-img'>
             <img class='icon-img-content' :src="item.imgUrl">
           </div>
@@ -46,6 +46,19 @@ export default {
         imgUrl: 'http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png',
         desc: '热门景点'}
       ]
+    }
+  },
+  computed: {
+    pages () {
+      const pages = []
+      this.iconList.forEach((item, index) => {
+        const page = Math.floor(index / 8)
+        if (!pages[page]) {
+          pages[page] = []
+        }
+        pages[page].push(item)
+      })
+      return pages
     }
   }
 }
