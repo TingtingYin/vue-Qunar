@@ -1,53 +1,23 @@
 <template>
   <div class='icons'>
-    <div class='icon'>
-      <div class='icon-img'>
-        <img class='icon-img-content' src="http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png">
-      </div>
-      <p class='icon-desc'>热门景点</p>
-    </div>
-    <div class='icon'>
-          <div class='icon-img'>
-            <img class='icon-img-content' src="http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png">
-          </div>
-          <p class='icon-desc'>热门景点</p>
-    </div>
-     <div class='icon'>
-          <div class='icon-img'>
-            <img class='icon-img-content' src="http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png">
-          </div>
-          <p class='icon-desc'>热门景点</p>
-     </div>
-      <div class='icon'>
-           <div class='icon-img'>
-             <img class='icon-img-content' src="http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png">
-           </div>
-           <p class='icon-desc'>热门景点</p>
-      </div>
-       <div class='icon'>
-            <div class='icon-img'>
-              <img class='icon-img-content' src="http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png">
-            </div>
-            <p class='icon-desc'>热门景点</p>
-       </div>
+    <swiper>
+      <swiper-slide>
         <div class='icon'>
-             <div class='icon-img'>
-               <img class='icon-img-content' src="http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png">
-             </div>
-             <p class='icon-desc'>热门景点</p>
+          <div class='icon-img'>
+            <img class='icon-img-content' src="http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png">
+          </div>
+          <p class='icon-desc'>热门景点</p>
         </div>
-         <div class='icon'>
+      </swiper-slide>
+      <swiper-slide>
+        <div class='icon'>
               <div class='icon-img'>
                 <img class='icon-img-content' src="http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png">
               </div>
               <p class='icon-desc'>热门景点</p>
-         </div>
-          <div class='icon'>
-               <div class='icon-img'>
-                 <img class='icon-img-content' src="http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png">
-               </div>
-               <p class='icon-desc'>热门景点</p>
-          </div>
+        </div>
+      </swiper-slide>
+    </swiper>
   </div>
 </template>
 <script>
