@@ -27,9 +27,7 @@ export default {
 </script>
 <style lang='stylus' scoped>
   @import '~styles/variables.styl'
-  .icons
-     overflow: hidden
-     width: 100%
+  .icons >>> .swiper-container
      height: 0
      padding-bottom: 50%
      .icon
