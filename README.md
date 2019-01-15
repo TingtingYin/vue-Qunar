@@ -74,7 +74,7 @@ network-fast3G测试，发现test文字先出现，轮播图显示时，test才�
 1. min-width: 0 : 长标题以...显示
 ### weekend.vue
 
-### index-aginx
+### index-ajax
 1. npm install axios --save
 2. 只有static文件夹下的内容能被外部访问到
 3. 转发地址：'^/api': '/static/mock'
