@@ -20,7 +20,7 @@ export default {
       iconList: [{
         id: '0001',
         imgUrl: 'http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png',
-        desc: '热门景点'},
+        desc: '热门景点快快快我靠我靠我靠我靠'},
       { id: '0002',
         imgUrl: 'http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png',
         desc: '热门景点'},
@@ -65,6 +65,7 @@ export default {
 </script>
 <style lang='stylus' scoped>
   @import '~styles/variables.styl'
+  @import '~styles/mixins.styl'
   .icons >>> .swiper-container
      height: 0
      padding-bottom: 50%
@@ -96,4 +97,5 @@ export default {
         line-height: .44rem
         text-align: center
         color: $darkTextColor
+        ellipsis()
 </style>
