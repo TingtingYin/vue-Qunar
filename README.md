@@ -70,6 +70,8 @@ network-fast3G测试，发现test文字先出现，轮播图显示时，test才�
 5. chrome安装vue devtools
 6. 第9个图标显示了
 7. 如果图标下面的文字很长，以...显示
+### 推荐列表
+1. min-width: 0 : 长标题以...显示
 
 
 
