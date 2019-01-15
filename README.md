@@ -62,5 +62,7 @@ network-fast3G测试，发现test文字先出现，轮播图显示时，test才�
 1. git checkout master
 2. git merge origin/index-swiper
 
+### Icons.vue
+
 
 
